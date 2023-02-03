@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+body {
+    font-family: "Kaushan Script";
+}
+
+.navbarGrow {
+    position: relative;
+    animation: navbar 0.5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.navbarShrink {
+    animation: navbarReverse 0.5s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/*can i just reverse already done animation without creating new one*/
+@keyframes navbar {
+    0% {top: 0px;}
+    100% {top: 160px}
+}
+
+@keyframes navbarReverse {
+    0% {top: 160px}
+    100% {top: 0px}
+}
+
+
+#headerID {
+    filter: opacity(80%);
+    background-color: yellow;
+}
