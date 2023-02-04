@@ -50,14 +50,141 @@
         </ul>
     </div>
 
-    <header id="headerID" class="bg-yellow-200 w-[100%] bg-opacity-50 h-[720px] bg-[url('bg-2.webp')] bg-no-repeat bg-cover bg-center bg-fixed
+    <header id="headerID" class="bg-yellow-200 w-[100%] bg-opacity-50 h-[720px] bg-[url('bg0.jpg')] bg-no-repeat bg-cover bg-center bg-fixed
         flex justify-center items-center flex-col">
         <h1 class="text-white text-4xl absolute top-60">Welcome To <span class="text-pink-500 text-6xl">Grandma's</span></h1>
         <button class="text-2xl border-4 border-black py-2 px-3 hover:bg-black hover:text-pink-400 hover:duration-500">EXPLORE</button>
     </header>
 
-    <div class="bg-white h-[500px] flex ">
-        <div class="flex flex-col justify-center items-center w-[50%] relative">
+    <div class="bg-white h-[850px] flex justify-center flex-col md:flex-row md:h-[500px]  lg:h-[600px]">
+        <div class="flex flex-col justify-center items-center w-[70%] md:w-[50%] md:-mt-24 md:mx-5 md:-ml-10 lg:w-[50%] lg:-mt-44 lg:-ml-72">
+            <h1 class="text-4xl mt-24 -ml-20 md:">About <span class="text-6xl text-pink-500">Us</span></h1>
+            <p class=" w-[350px] mt-6 -mr-24 text-gray-600 md:w-[250px] md:-ml-24 lg:w-[350px]">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.  Laboriosam doloremque expedita, dolores culpa voluptatum sed fugit delectus tempore ipsam numquam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
+            <button class=" border -ml-40 mt-5 border-black py-2 px-3 rounded-md hover:bg-black hover:text-pink-400 hover:duration-500">EXPLORE</button>
+        </div>
+        <div id="parentID" class="flex items-center justify-center md:static relative lg:-mr-24">
+            
+            <img id="imgID" class="w-[425px] z-20 h-[330px] my-24  mx-4 md:static md:w-[330px] md:h-[240px] lg:w-[500px] lg:h-[430px]" src="pic0.jpg" alt="">
+            <!---
+            <div id="borderID" class="absolute left-32 top-16 bg-yellow-200 w-[450px] h-[346px] flex justify-center items-center">
+                <div class="bg-white w-[427px] h-[330px]"></div>
+            
+            -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="bg-slate-100 h-[auto] flex flex-col items-center">
+        <h1 class="text-4xl mt-10">Our <span class="text-6xl text-pink-500">Store</span></h1>
+        <div class="mt-7 flex items-center justify-center flex-wrap">
+            <button class="border border-black py-2 px-3 mx-5 my-2 rounded-md hover:bg-black hover:text-pink-400 hover:duration-500">ALL</button>
+            <button class="border border-black py-2 px-3 mx-5 my-2 rounded-md hover:bg-black hover:text-pink-400 hover:duration-500">CAKES</button>
+            <button class="border border-black py-2 px-3 mx-5 my-2 rounded-md hover:bg-black hover:text-pink-400 hover:duration-500">CUPCAKES</button>
+            <button class="border border-black py-2 px-3 mx-5 my-2 rounded-md hover:bg-black hover:text-pink-400 hover:duration-500">SWEETS</button>
+            <button class="border border-black py-2 px-3 mx-5 my-2 rounded-md hover:bg-black hover:text-pink-400 hover:duration-500">DOUGHNUTS</button>
+        </div>
+        <div class="flex mt-3">
+            <div class="bg-pink-400 rounded-sm w-[40px] h-[37px] flex justify-center items-center">
+                <svg class="bg-pink-400 w-6 h-6 font-bold" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                  </svg>
+            </div>
+            <input class="pl-2 outline-none focus:border-blue-200 focus:border-2 border w-[345px] h-[37px]" type="text" placeholder="item...">
+        </div>
+        
+
+
+
+        <div class="mt-6 md:flex md:justify-center md:flex-wrap md:items-center lg:mx-20 mb-8">
+            <div class="mt-4 mx-5">
+                <img class="imageClass w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/sweets1.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Sweet Item</p>
+                    <p class="mr-5">$ 5</p>
+                </div>
+
+            </div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/cupcake1.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Cupcake Item</p>
+                    <p class="mr-5">$ 5</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/cake1.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Cake Item</p>
+                    <p class="mr-5">$ 5</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/dou1.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Doughnut Item</p>
+                    <p class="mr-5">$ 5</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/sweets2.webp" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Sweet Item</p>
+                    <p class="mr-5">$ 10</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/cupcake2.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Cupcake Item</p>
+                    <p class="mr-5">$ 10</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/cake2.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Cake Item</p>
+                    <p class="mr-5">$ 10</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/dou2.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Doughnut Item</p>
+                    <p class="mr-5">$ 10</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/sweets3.webp" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Sweet Item</p>
+                    <p class="mr-5">$ 15</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/cupcakes3.jpeg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Cupcake Item</p>
+                    <p class="mr-5">$ 15</p>
+                </div></div>
+            <div class="mt-8 mx-5"><img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/cake3.jpeg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Cake Item</p>
+                    <p class="mr-5">$ 15</p>
+                </div></div>
+            <div class="mt-8 mx-5">
+                <img class="w-[390px] h-[320px] cursor-pointer rounded-t-sm md:w-[320px] md:h-[250px]" src="imgs/dou3.jpg" alt="">
+                <div class="text-xl flex h-[70px] justify-between items-center bg-white rounded-b-sm">
+                    <p class="ml-5">Doughnut Item</p>
+                    <p class="mr-5">$ 15</p>
+                </div>
+            </div>    
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!--
+    <div class="flex flex-col justify-center items-center w-[50%] relative">
             <h1 class="text-4xl absolute top-20">About <span class="text-6xl text-pink-500">Us</span></h1>
             <p class="absolute top-44 w-[250px] left-24 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque expedita, dolores culpa voluptatum sed fugit delectus tempore ipsam numquam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</p>
             <button class="absolute bottom-24 left-24 border border-black py-2 px-3 rounded-md hover:bg-black hover:text-pink-400 hover:duration-500">EXPLORE</button>
@@ -65,11 +192,7 @@
         <div class="">
             <img class="border-8 border-yellow-200 my-32 mx-4 w-[330px] h-[240px]" src="pic1.webp" alt="">
         </div>
-    </div>
-    <div class="bg-blue-300 h-[800px]"></div>
-    
 
 
-    <script src="script.js"></script>
-</body>
-</html>
+
+-->

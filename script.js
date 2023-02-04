@@ -3,6 +3,8 @@
     const nav_menu = document.getElementById("navMenuID");
     const nav = document.getElementById("nav");
     const header = document.getElementById("headerID");
+    const image = document.getElementById("imgID");
+    const border = document.getElementById("borderID");
 
 
     menu.addEventListener("click", function() {
@@ -19,10 +21,13 @@
     })
 
 
-
-
-
+    image.addEventListener("mouseout", function() {
+        border.classList.add("borderReverse")
+    })
+ // ??????????????
+// i have to redo the whole border animation
 
 })();
+
 
 

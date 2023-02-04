@@ -8,6 +8,8 @@ body {
     font-family: "Kaushan Script";
 }
 
+
+
 .navbarGrow {
     position: relative;
     animation: navbar 0.5s linear;
@@ -32,8 +34,32 @@ body {
     100% {top: 0px}
 }
 
-
 #headerID {
     filter: opacity(80%);
     background-color: yellow;
 }
+
+#parentID #imgID:hover + #borderID {
+    animation: border 1s linear 0s 1 forwards;
+}
+
+/*
+.borderReverse {
+    animation: border 1s linear 0s 1 forwards reverse;
+}
+
+*/
+
+
+@keyframes border {
+    0% {left: 8rem; top: 4rem;}
+    100% {left: 9.28rem; top: 5.5rem;}
+}
+
+
+
+
+
+/*
+hover:scale-90 hover:duration-500 hover:ease-linear
+*/
