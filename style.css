@@ -12,13 +12,14 @@ body {
 
 .navbarGrow {
     position: relative;
-    animation: navbar 0.5s linear;
+    animation: navbar 0.3s ease-in;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .navbarShrink {
-    animation: navbarReverse 0.5s linear;
+    position: relative;
+    animation: navbarReverse 0.4s linear;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -35,7 +36,7 @@ body {
 }
 
 #headerID {
-    filter: opacity(80%);
+    filter: opacity(70%) saturate(110%);
     background-color: yellow;
 }
 
